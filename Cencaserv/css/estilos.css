@@ -1,0 +1,256 @@
+*, ::before,::after{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.h1{
+    font-family: 'Signika', sans-serif;
+    background-color: none;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+    text-align: right;
+    display: block;
+    position: fixed;z-index: 1;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.menu h1{
+    color: white;
+    font-size: 3.0rem;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: -200px;
+    margin-bottom: -10px;
+    text-shadow: 0 0 10px rgb(255, 234, 0)  
+}
+.menu img{
+    width: 70px;
+    height: 70px;
+    margin-right: 500px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    margin-left: -100px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    font-family: 'Signika', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+.menu li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 80px;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+}
+.container p{
+    font-size: 3.4rem;
+    font-family: 'Signika', sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    top:45%;
+    left:20%;
+    right:10%;
+    transform: traslate(-50%,-50%);
+    text-shadow: 0 0 15px rgb(0, 0, 0)
+}
+.bc1{
+    background-color:rgba(30, 28, 24, 0.776);
+}
+.p1-conocenos,.p3-conocenos{
+    font-size: 1.6rem;
+    font-family: 'Signika', sans-serif;
+    color:whitesmoke;
+    text-align: left;
+    margin: 15% 60% 1% 5%;
+    line-height: 1.7;
+}
+.p2-conocenos{
+    font-size: 1.6rem;
+    font-family: 'Signika', sans-serif;
+    color:whitesmoke;
+    text-align: left;
+    margin: -3% 10% 25% 60%;
+    line-height: 1.7;
+}
+.p1-conocenos img{
+    width: 450px;
+    height: 450px;
+    margin-top: -75%;
+    margin-left: 160%;
+    margin-right: 50%;
+    margin-bottom: 50%;
+    border-radius: 3%;
+}
+.p2-conocenos img{
+    width: 500px;
+    height: 450px;
+    margin-top: -164%;
+    margin-left: -210%;
+    margin-right: 0%;
+    margin-bottom: -10%;
+    border-radius: 3%;
+}
+.p3-conocenos img{
+    width: 510px;
+    height: 450px;
+    margin-top: -65%;
+    margin-left: 149%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    border-radius: 3%;
+}
+.bnd{
+    background-color:rgba(30, 28, 24, 0.776);
+}
+.main-diplo{
+    text-align: left;
+    font-size: 2.0rem;
+    font-family: 'Signika', sans-serif;
+    margin: 150px;
+    margin-left: 0;
+    transform: traslate(-50%,-50%);
+    text-shadow: 0 0 15px rgb(209, 255, 41)
+}
+.diplo-list{
+    text-align: left;
+    font-size: 2.1rem;
+    font-family: 'Signika', sans-serif;
+    margin: 250px;
+    margin-left: 400px;
+    transform: traslate(-50%,-50%);
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+}
+.galeria1{
+    background-color:rgba(30, 28, 24, 0.776);
+}
+.main-galeria{
+    text-align: left;
+    font-size: 2.1rem;
+    font-family: 'Signika', sans-serif;
+    margin: 250px;
+    margin-left: 400px;
+    transform: traslate(-50%,-50%);
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+}
+.body-contactenos{
+    background-color:rgba(30, 28, 24, 0.776);
+}
+.form{
+    background-color: black;
+    width: 470px;
+    height: 510px;
+    margin-top: -510px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+    border-radius: 5%;
+    box-shadow: .2rem .2rem 0.5rem  rgb(255, 255, 255),
+    -.2rem -.2rem 0.5rem rgb(255, 255, 255);
+}
+.campo-nombre{
+    margin-top: 240px;
+    margin-left: 110px;
+    margin-right: 0px;
+    padding: 12px 30px;
+    font-family: 'Signika', sans-serif;
+    font-size: 1.0rem;
+}
+.campo-apellido,.campo-telefono,.campo-email{
+    margin-top: 8px;
+    margin-left: 110px;
+    margin-right: 0px;
+    padding: 12px 30px;
+    font-family:'Signika', sans-serif;;
+    font-size: 1.0rem;
+}
+.btn{
+    font-family: 'Signika', sans-serif;
+    margin-top: 15px;
+    margin-left: 107px;
+    margin-right: 0px;
+    background-color: rgba(30, 28, 24, 0.776);
+    font-weight: semibold;
+    color: rgb(254, 254, 254);
+    font-size: 1rem;
+    padding:13px 40px;
+    border: 2px solid rgba(30, 28, 24, 0.776);
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: .3rem .3rem 0.5rem rgb(101, 101, 95),
+    -.3rem -.3rem 0.5rem rgb(255, 255, 255);
+}
+.btn:hover{
+    box-shadow: .3rem .3rem 0.5rem rgb(255, 255, 255),
+    -.3rem -.3rem 0.5rem rgb(143, 141, 121);
+}
+.btn:active{
+    box-shadow: inset .5rem 0.5rem rgb(255, 255, 255),
+    inset -.2rem -.3rem 0.5rem rgb(143, 141, 121);
+}
+.p-form{
+    padding: 18px 63px 0px 99px;
+    margin-bottom: -205px;
+    font-family: 'Signika', sans-serif;
+    font-size: 1.6rem;
+    color: white;
+}
+.black-box{
+    display: block;
+    color: white;
+    padding: 18px 23px 0px 80px;
+    margin-bottom: -205px;
+    font-family: 'Signika', sans-serif;
+    font-size: 1.6rem;
+    margin-top: 160px;
+    margin-left: 800px;
+    margin-right: 0px;
+    background-color: black;
+    width: 590px;
+    height: 510px;
+    border-radius: 5%;
+    box-shadow: .2rem .2rem 0.5rem  rgb(255, 255, 255),
+    -.2rem -.2rem 0.5rem rgb(255, 255, 255);
+}
+.black-box h3{
+    padding: 35px 0px 10px 0px;
+    color: white;
+    font-family: 'Signika', sans-serif;
+    font-size: 1.6rem;
+}
+.mail-logo,.instagram-logo,.whatsapp-logo{
+    margin-top: 12px;
+    margin-left: 2px;
+    margin-right: 0px;
+    margin-bottom: -11px;
+    width: 40px;
+    height: 40px;
+}
+.black-box a{
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    text-decoration: none;
+}
+.black-box a:hover{
+    text-shadow: 0px 0px 25px rgb(255, 255, 255);
+}
