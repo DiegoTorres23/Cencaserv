@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 nav{
-    margin: 0% auto;
     width: 100%;
     height: 80px;
     background-color: black;
@@ -16,12 +15,11 @@ nav{
     background-color: rgb(0, 0, 0);
     list-style: none;
     display: flex;
-    margin: 1rem;
+    margin: 1.4rem;
 }
 .logo{
     padding: 8px;
     display: flex;
-    justify-content: start;
 }
 .logo h1{
     color: white;
@@ -37,25 +35,25 @@ nav{
     color: white;
     padding: 0.7rem;
 }
-.menu li a:hover{
+.menu a:hover{
     color: rgb(0, 0, 0);
     background-color: white;
     border-radius: 80px;
 }
 .container img{
-    width: 100%;
-    height: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: url(../img/istockphoto-fondo-index.jpg);
+    background-size: cover;
+    display: flex;
 }
 .container p{
+    position: center;
     font-size: 3.4rem;
     font-family: 'Signika', sans-serif;
     color: whitesmoke;
-    position: absolute;
-    top:45%;
-    left:20%;
-    right:10%;
     transform: traslate(-50%,-50%);
-    text-shadow: 0 0 15px rgb(0, 0, 0)
+    text-shadow: 0 0 15px rgb(0, 0, 0);
 }
 .bc1{
     background-color:rgba(30, 28, 24, 0.776);
