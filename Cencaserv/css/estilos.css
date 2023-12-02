@@ -40,87 +40,81 @@ nav{
     background-color: white;
     border-radius: 80px;
 }
-.container img{
+.container{
     min-height: 100vh;
     min-width: 100vw;
     background: url(../img/istockphoto-fondo-index.jpg);
     background-size: cover;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
-.container p{
-    position: center;
-    font-size: 3.4rem;
+.container h1{
+    text-align: center;
+    font-size: 3.0rem;
     font-family: 'Signika', sans-serif;
     color: whitesmoke;
     transform: traslate(-50%,-50%);
     text-shadow: 0 0 15px rgb(0, 0, 0);
+    width: 90%;
 }
 .bc1{
     background-color:rgba(30, 28, 24, 0.776);
 }
-.p1-conocenos,.p3-conocenos{
-    font-size: 1.6rem;
-    font-family: 'Signika', sans-serif;
-    color:whitesmoke;
-    text-align: left;
-    margin: 15% 60% 1% 5%;
-    line-height: 1.7;
+.box1,.box2,.box3{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5%;
 }
-.p2-conocenos{
-    font-size: 1.6rem;
-    font-family: 'Signika', sans-serif;
-    color:whitesmoke;
-    text-align: left;
-    margin: -3% 10% 25% 60%;
-    line-height: 1.7;
-}
-.p1-conocenos img{
+.box1 img{
     width: 450px;
     height: 450px;
-    margin-top: -75%;
-    margin-left: 160%;
-    margin-right: 50%;
-    margin-bottom: 50%;
-    border-radius: 3%;
+    border-radius:3%;
+    margin-top: 20%;
+    border: gold solid 3px;
 }
-.p2-conocenos img{
+.box2 img{
     width: 500px;
     height: 450px;
-    margin-top: -164%;
-    margin-left: -210%;
-    margin-right: 0%;
-    margin-bottom: -10%;
     border-radius: 3%;
+    margin: 5% auto;
+    border: black solid 3px;
 }
-.p3-conocenos img{
+.box3 img{
     width: 510px;
     height: 450px;
-    margin-top: -65%;
-    margin-left: 149%;
-    margin-right: 0%;
-    margin-bottom: 0%;
     border-radius: 3%;
+    border: aqua solid 3px;
+}
+.box1 h1{
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    font-family: 'Signika', sans-serif;
+    font-size: 2.8rem;
+    margin: 5%;
+}
+.box2 h1,.box3 h1{
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    font-family: 'Signika', sans-serif;
+    font-size: 2.8rem;
+    padding: 5%;
+    margin-top: -10%;
+}
+.box1 p,.box2 p,.box3 p{
+    color: white;
+    font-size: 2.0rem;
+    font-family: 'Signika', sans-serif;
+    width: 650px;
 }
 .bnd{
     background-color:rgba(30, 28, 24, 0.776);
-}
-.main-diplo{
-    text-align: left;
-    font-size: 2.0rem;
-    font-family: 'Signika', sans-serif;
-    margin: 150px;
-    margin-left: 0;
-    transform: traslate(-50%,-50%);
-    text-shadow: 0 0 15px rgb(209, 255, 41)
-}
-.diplo-list{
-    text-align: left;
-    font-size: 2.1rem;
-    font-family: 'Signika', sans-serif;
-    margin: 250px;
-    margin-left: 400px;
-    transform: traslate(-50%,-50%);
-    text-shadow: 0 0 15px rgb(255, 255, 255);
 }
 .galeria1{
     background-color:rgba(30, 28, 24, 0.776);
