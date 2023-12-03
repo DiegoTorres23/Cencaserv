@@ -116,6 +116,41 @@ nav{
 .bnd{
     background-color:rgba(30, 28, 24, 0.776);
 }
+.containerCard{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 7%;
+    font-family: 'Signika', sans-serif;
+}
+.containerCard h5{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.cardImg{
+    height: 360px;
+}
+.card{
+    background-color:black;
+    color: white;
+    border:whitesmoke solid 2px;
+}
+.card a{
+    width: 20px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.cardMail{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+.cardPropia{
+    margin-top: 60px;
+}
 .galeria1{
     background-color:rgba(30, 28, 24, 0.776);
 }
