@@ -139,7 +139,7 @@ nav{
     border:whitesmoke solid 2px;
 }
 .card a{
-    width: 20px;
+    width: 60px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -191,7 +191,7 @@ nav{
     font-family: 'Signika', sans-serif;
     margin-left: 33px;
 }
-.campo-nombre{
+.campoNombre{
     margin-top: 240px;
     margin-left: 31px;
     margin-right: 0px;
@@ -199,7 +199,7 @@ nav{
     font-family: 'Signika', sans-serif;
     font-size: 1.0rem;
 }
-.campo-apellido,.campo-telefono{
+.campoApellido,.campoTelefono{
     margin-top: 8px;
     margin-left: 27px;
     margin-right: 0px;
@@ -207,7 +207,7 @@ nav{
     font-family:'Signika', sans-serif;;
     font-size: 1.0rem;
 }
-.campo-telefono{
+.campoTelefono{
     margin-top: 8px;
     margin-left: 25px;
     margin-right: 0px;
@@ -215,7 +215,7 @@ nav{
     font-family:'Signika', sans-serif;;
     font-size: 1.0rem;
 }
-.campo-email{
+.campoEmail{
     margin-top: 8px;
     margin-left: 53px;
     margin-right: 0px;
@@ -255,7 +255,7 @@ nav{
     font-size: 1.6rem;
     color: white;
 }
-.black-box{
+.blackBox{
     display: block;
     color: white;
     padding: 18px 23px 0px 80px;
@@ -272,13 +272,13 @@ nav{
     box-shadow: .2rem .2rem 0.5rem  rgb(255, 255, 255),
     -.2rem -.2rem 0.5rem rgb(255, 255, 255);
 }
-.black-box h3{
+.blackBox h3{
     padding: 35px 0px 10px 0px;
     color: white;
     font-family: 'Signika', sans-serif;
     font-size: 1.6rem;
 }
-.mail-logo,.instagram-logo,.whatsapp-logo{
+.mailLogo,.instagramLogo,.whatsappLogo{
     margin-top: 12px;
     margin-left: 2px;
     margin-right: 0px;
@@ -286,13 +286,32 @@ nav{
     width: 40px;
     height: 40px;
 }
-.black-box a{
+.blackBox a{
     text-align: center;
     font-family: 'Signika', sans-serif;
     font-size: 1.7rem;
     color: white;
     text-decoration: none;
 }
-.black-box a:hover{
+.blackBox a:hover{
     text-shadow: 0px 0px 25px rgb(255, 255, 255);
+}
+.btnCard{
+    margin: 15px 0px 0px 130px;
+    background-color: black;
+    color: rgb(254, 254, 254);
+    padding:10px 30px;
+    border: 2px solid rgba(30, 28, 24, 0.776);
+    border-radius: .5rem;
+    transition: all 0.5s ease;
+    box-shadow: .3rem .3rem 0.5rem rgb(101, 101, 95),
+    -.3rem -.3rem 0.5rem rgb(255, 255, 255);
+}
+.btnCard:hover{
+    box-shadow: .3rem .3rem 0.5rem rgb(255, 255, 255),
+    -.3rem -.3rem 0.5rem rgb(143, 141, 121);
+}
+.btnCard:active{
+    box-shadow: inset .5rem 2rem rgb(255, 255, 255),
+    inset -.5rem -.5rem 2rem rgb(143, 141, 121);
 }
