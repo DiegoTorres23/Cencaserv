@@ -1,0 +1,410 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+header nav {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+header nav .logo {
+  padding: 8px;
+  display: flex;
+}
+header nav .logo h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 3rem;
+  font-family: "Signika", sans-serif;
+  align-items: center;
+  text-shadow: 0 0 10px rgb(255, 234, 0);
+}
+header nav .menu {
+  background-color: rgb(0, 0, 0);
+  list-style: none;
+  display: flex;
+  margin: 1.4rem;
+}
+header nav .menu a {
+  text-decoration: none;
+  font-family: "Signika", sans-serif;
+  font-size: 1.7rem;
+  color: white;
+  padding: 0.7rem;
+}
+header nav .menu a:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 80px;
+}
+
+main .container {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: url(../img/istockphoto-fondo-index.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+main .container h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Signika", sans-serif;
+  color: whitesmoke;
+  transform: traslate(-50%, -50%);
+  text-shadow: 0 0 15px rgb(0, 0, 0);
+  width: 90%;
+}
+
+.bc1 {
+  background-color: rgba(30, 28, 24, 0.776);
+}
+
+.box1 {
+  width: 100vw;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5%;
+}
+.box1 img {
+  width: 450px;
+  height: 450px;
+  border-radius: 3%;
+  margin-top: 20%;
+  border: gold solid 3px;
+}
+.box1 h1 {
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+  font-family: "Signika", sans-serif;
+  font-size: 2.8rem;
+  margin: 5%;
+}
+.box1 p {
+  color: white;
+  font-size: 2rem;
+  font-family: "Signika", sans-serif;
+  width: 650px;
+}
+
+.box2 {
+  width: 100vw;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5%;
+}
+.box2 img {
+  width: 500px;
+  height: 450px;
+  border-radius: 3%;
+  margin: 5% auto;
+  border: black solid 3px;
+}
+.box2 h1 {
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+  font-family: "Signika", sans-serif;
+  font-size: 2.8rem;
+  padding: 5%;
+  margin-top: -10%;
+}
+.box2 p {
+  color: white;
+  font-size: 2rem;
+  font-family: "Signika", sans-serif;
+  width: 650px;
+}
+
+.box3 {
+  width: 100vw;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5%;
+}
+.box3 img {
+  width: 510px;
+  height: 450px;
+  border-radius: 3%;
+  border: aqua solid 3px;
+}
+.box3 h1 {
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+  font-family: "Signika", sans-serif;
+  font-size: 2.8rem;
+  padding: 5%;
+  margin-top: -10%;
+}
+.box3 p {
+  color: white;
+  font-size: 2rem;
+  font-family: "Signika", sans-serif;
+  width: 650px;
+}
+
+.bnd {
+  background-color: rgba(30, 28, 24, 0.776);
+}
+
+.containerCard {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 7%;
+  font-family: "Signika", sans-serif;
+}
+.containerCard h5 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.containerCard .card {
+  background-color: black;
+  color: white;
+  border: whitesmoke solid 2px;
+}
+.containerCard .card .btnCard {
+  margin: 15px 0px 0px 130px;
+  background-color: black;
+  color: rgb(254, 254, 254);
+  padding: 10px 30px;
+  border: 2px solid rgba(30, 28, 24, 0.776);
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(101, 101, 95), -0.3rem -0.3rem 0.5rem rgb(255, 255, 255);
+}
+.containerCard .card .btnCard:hover {
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(255, 255, 255), -0.3rem -0.3rem 0.5rem rgb(143, 141, 121);
+}
+.containerCard .card .btnCard:active {
+  box-shadow: inset 0.5rem 2rem rgb(255, 255, 255), inset -0.5rem -0.5rem 2rem rgb(143, 141, 121);
+}
+.containerCard .card a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.containerCard .card a .cardMail {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+}
+.containerCard .card .cardImg {
+  height: 360px;
+}
+.containerCard .cardPropia {
+  margin-top: 60px;
+}
+.containerCard .cardPropia .cardImg {
+  height: 350px;
+}
+.containerCard .cardPropia .btnCard {
+  margin: 15px 0px 0px 130px;
+  background-color: black;
+  color: rgb(254, 254, 254);
+  padding: 10px 30px;
+  border: 2px solid rgba(30, 28, 24, 0.776);
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(101, 101, 95), -0.3rem -0.3rem 0.5rem rgb(255, 255, 255);
+}
+.containerCard .cardPropia .btnCard:hover {
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(255, 255, 255), -0.3rem -0.3rem 0.5rem rgb(143, 141, 121);
+}
+.containerCard .cardPropia .btnCard:active {
+  box-shadow: inset 0.5rem 2rem rgb(255, 255, 255), inset -0.5rem -0.5rem 2rem rgb(143, 141, 121);
+}
+.containerCard .cardPropia a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.containerCard .cardPropia a img {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+}
+
+.galeria1 {
+  background-color: rgba(30, 28, 24, 0.776);
+}
+
+.containerGaleria {
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.containerGaleria img {
+  width: 470px;
+  height: 400px;
+  margin-top: 8rem;
+  border-radius: 10px;
+  border: black solid 2.5px;
+}
+
+.bodyContactenos {
+  background-color: rgba(30, 28, 24, 0.776);
+}
+
+main .blackBox {
+  display: block;
+  color: white;
+  padding: 18px 23px 0px 80px;
+  margin-bottom: -205px;
+  font-family: "Signika", sans-serif;
+  font-size: 1.6rem;
+  margin-top: 160px;
+  margin-left: 800px;
+  margin-right: 0px;
+  background-color: black;
+  width: 590px;
+  height: 510px;
+  border-radius: 5%;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgb(255, 255, 255), -0.2rem -0.2rem 0.5rem rgb(255, 255, 255);
+}
+main .blackBox h3 {
+  padding: 35px 0px 10px 0px;
+  color: white;
+  font-family: "Signika", sans-serif;
+  font-size: 1.6rem;
+}
+main .blackBox a {
+  text-align: center;
+  font-family: "Signika", sans-serif;
+  font-size: 1.7rem;
+  color: white;
+  text-decoration: none;
+}
+main .blackBox a:hover {
+  text-shadow: 0px 0px 25px rgb(255, 255, 255);
+}
+main .blackBox .mailLogo {
+  margin-top: 12px;
+  margin-left: 2px;
+  margin-right: 0px;
+  margin-bottom: -11px;
+  width: 40px;
+  height: 40px;
+}
+main .blackBox .whatsappLogo {
+  margin-top: 12px;
+  margin-left: 2px;
+  margin-right: 0px;
+  margin-bottom: -11px;
+  width: 40px;
+  height: 40px;
+}
+main .blackBox .instagramLogo {
+  margin-top: 12px;
+  margin-left: 2px;
+  margin-right: 0px;
+  margin-bottom: -11px;
+  width: 40px;
+  height: 40px;
+}
+
+footer .form {
+  background-color: black;
+  width: 470px;
+  height: 510px;
+  margin-top: -510px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 200px;
+  border-radius: 5%;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgb(255, 255, 255), -0.2rem -0.2rem 0.5rem rgb(255, 255, 255);
+}
+footer .form label {
+  color: white;
+  font-weight: semibold;
+  font-size: 1.5rem;
+  font-family: "Signika", sans-serif;
+  margin-left: 46px;
+}
+footer .form .pForm {
+  padding: 18px 63px 0px 99px;
+  margin-bottom: -205px;
+  font-family: "Signika", sans-serif;
+  font-size: 1.6rem;
+  color: white;
+}
+footer .form .campoNombre {
+  margin-top: 240px;
+  margin-left: 31px;
+  margin-right: 0px;
+  padding: 12px 30px;
+  font-family: "Signika", sans-serif;
+  font-size: 1rem;
+}
+footer .form .campoTelefono {
+  margin-top: 8px;
+  margin-left: 26px;
+  margin-right: 0px;
+  padding: 12px 30px;
+  font-family: "Signika", sans-serif;
+  font-size: 1rem;
+}
+footer .form .campoApellido {
+  margin-top: 8px;
+  margin-left: 27px;
+  margin-right: 0px;
+  padding: 12px 30px;
+  font-family: "Signika", sans-serif;
+  font-size: 1rem;
+}
+footer .form .campoEmail {
+  margin-top: 8px;
+  margin-left: 54px;
+  margin-right: 0px;
+  padding: 12px 30px;
+  font-family: "Signika", sans-serif;
+  font-size: 1rem;
+}
+footer .form .btn {
+  font-family: "Signika", sans-serif;
+  margin-top: 35px;
+  margin-left: 107px;
+  margin-right: 0px;
+  background-color: rgba(30, 28, 24, 0.776);
+  font-weight: semibold;
+  color: rgb(254, 254, 254);
+  font-size: 1rem;
+  padding: 13px 40px;
+  border: 2px solid rgba(30, 28, 24, 0.776);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(101, 101, 95), -0.3rem -0.3rem 0.5rem rgb(255, 255, 255);
+}
+footer .form .btn:hover {
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(255, 255, 255), -0.3rem -0.3rem 0.5rem rgb(143, 141, 121);
+}
+footer .form .btn:active {
+  box-shadow: inset 0.5rem 0.5rem rgb(255, 255, 255), inset -0.2rem -0.3rem 0.5rem rgb(143, 141, 121);
+}
+
+/*# sourceMappingURL=style.css.map */
